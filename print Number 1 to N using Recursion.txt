@@ -1,0 +1,14 @@
+/*************** Print 1 To N ******************/
+void print1ToN(int i,int n){
+      //Base Case..
+      if(i>n){
+         return;
+      }
+      cout<<i<<endl;
+      print1ToN(i+1,n);
+}
+int main(){
+    int n;
+    cin>>n;
+    print1ToN(1,n);
+}
