@@ -1,0 +1,15 @@
+/************ print the Your name N time *********/
+
+void printName(int i,int n){
+      //Base Case..
+      if(i>n){
+         return;
+      }
+      cout<<"Subhashish"<<endl;;
+      printName(i+1,n);
+}
+int main(){
+    int n;
+    cin>>n;
+    printName(1,n);
+}
